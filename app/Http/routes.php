@@ -17,21 +17,20 @@ Route::group(['prefix'=>'v1'],function() {
         'password' => 'Auth\PasswordController',
     ]);
 
-
     Route::group(['middleware' => 'auth'], function () {
-        Route::resource('groups.badges','BadgesGroupsController',['except' => ['show']]);
-        Route::resource('users.badges','BadgesUsersController',['except' => ['show']]);
-        Route::resource('users.groups','GroupsUsersController',['except' => ['show']]);
-        Route::resource('users','UsersController',['except' => ['show']]);
-        Route::resource('groups','GroupsController',['except' => ['show']]);
-        Route::resource('badges','BadgesController',['except' => ['show']]);
+        Route::resource('groups.badges','BadgesGroupsController',['except' => ['index','dsshow']]);
+        Route::resource('users.badges','BadgesUsersController',['except' => ['index','dsshow']]);
+        Route::resource('users.groups','GroupsUsersController',['except' => ['index','dsshow']]);
+        Route::resource('users','UsersController',['except' => ['index','dsshow']]);
+        Route::resource('groups','GroupsController',['except' => ['index','dsshow']]);
+        Route::resource('badges','BadgesController',['except' => ['index','dsshow']]);
     });
-    Route::resource('users.badges','BadgesUsersController',['only' => ['show']]);
-    Route::resource('groups.badges','BadgesGroupsController',['only' => ['show']]);
-    Route::resource('users.groups','GroupsUsersController',['only' => ['show']]);
-    Route::resource('users', 'UsersController',['only' => ['show']]);
-    Route::resource('groups', 'GroupsController',['only' => ['show']]);
-    Route::resource('badges', 'BadgesController',['only' => ['show']]);
+    Route::resource('users.badges','BadgesUsersController',['only' => ['index','dsshow']]);
+    Route::resource('groups.badges','BadgesGroupsController',['only' => ['index','dsshow']]);
+    Route::resource('users.groups','GroupsUsersController',['only' => ['index','dsshow']]);
+    Route::resource('users', 'UsersController',['only' => ['index','dsshow']]);
+    Route::resource('groups', 'GroupsController',['only' => ['index','dsshow']]);
+    Route::resource('badges', 'BadgesController',['only' => ['index','dsshow']]);
 
 
 });

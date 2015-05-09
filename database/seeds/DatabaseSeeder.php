@@ -22,13 +22,13 @@ class DatabaseSeeder extends Seeder {
 
 		// create a few badges
 		DB::table('badges')->delete();
-		Badge::create(['name'=>'First Meeting']);
-		Badge::create(['name'=>'First Talk']);
-		Badge::create(['name'=>'First Conference']);
-		Badge::create(['name'=>'Three Meetings in a Row']);
-		Badge::create(['name'=>'GitHub Repository Contributor']);
+		Badge::create(['name'=>'Meeting','path'=>'badges/meeting.png']);
+		Badge::create(['name'=>'Talk','path'=>'badges/conference.png']);
+		Badge::create(['name'=>'Conference','path'=>'badges/conference.png']);
+		Badge::create(['name'=>'Three Meetings']);
+		Badge::create(['name'=>'Repository Contribution']);
 		Badge::create(['name'=>'User Group Blogger']);
-		Badge::create(['name'=>'User Group Website Contributor']);
+		Badge::create(['name'=>'User Group Website Contribution']);
 
 		// create a user
 		DB::table('users')->delete();
