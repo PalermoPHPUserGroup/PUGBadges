@@ -1,12 +1,14 @@
 <?php namespace App\Http\Controllers;
 
+use Illuminate\Foundation\Bus\DispatchesCommands;
+use App\Commands\AssignBadgeCommand;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 use App\User;
 use App\Badge;
-use Symfony\Component\HttpFoundation\Response;
+use Response;
 
 class BadgesUsersController extends Controller {
 
@@ -48,7 +50,7 @@ class BadgesUsersController extends Controller {
 	 */
     public function show($id)
     {
-        //
+
     }
 	/**
 	 * Show the form for editing the specified resource.
@@ -67,9 +69,10 @@ class BadgesUsersController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update(Badge $badge, User $user)
+	public function update(User $user, Badge $badge)
 	{
-        $user->badges()->attach($badge->id);Response::make('Badge Assigned.',201);
+        $this->dispatch(new AssignBadgeCommand($user,$badge));
+        return Response::make('Badge Assigned.',200);
 	}
 
 	/**

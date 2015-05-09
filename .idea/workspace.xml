@@ -34,14 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8238748">
-              <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.094076656">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -55,8 +52,8 @@
     </layout>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response127.html" root0="SKIP_INSPECTION" />
     <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
+    <setting file="dummy://restClient/response347.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -70,28 +67,36 @@
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/GroupsController.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/database/seeds/BadgeTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/GroupTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/BadgesController.php" />
-        <option value="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/Group.php" />
         <option value="$PROJECT_DIR$/app/Badge.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/BadgesGroupsController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/GroupsUsersController.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_05_09_153815_BadgesUsers.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_05_09_153804_BadgesGroups.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_05_09_153755_GroupsUsers.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/BadgesGroupsController.php" />
+        <option value="$PROJECT_DIR$/app/Events/Event.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/GroupsController.php" />
+        <option value="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
+        <option value="$PROJECT_DIR$/resources/views/emails/badge.assigned.blade.php" />
+        <option value="$PROJECT_DIR$/config/mail.php" />
+        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/BadgesUsersController.php" />
+        <option value="$PROJECT_DIR$/app/Events/BadgeAssignedEvent.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_05_09_153815_BadgesUsers.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Commands/AssignBadgeCommand.php" />
+        <option value="$PROJECT_DIR$/resources/views/emails/badge-earned.blade.php" />
+        <option value="$PROJECT_DIR$/app/Handlers/Events/NotifyUserForBadgeAssignedEvent.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -166,6 +171,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emails" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -293,6 +338,162 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Handlers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Handlers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Commands" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exceptions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="badges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Commands" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -302,11 +503,12 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.vagrant" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="routes&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/routes.php&#10;seed&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/database/seeds/DatabaseSeeder.php&#10;users&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/Controllers/UsersController.php&#10;data&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;UsersC&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/Controllers/UsersController.php&#10;route&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/routes.php&#10;routes.php&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Providers/RouteServiceProvider.php&#10;Badges&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/Controllers/BadgesController.php&#10;composer.json&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/composer.json" />
+    <property name="SearchEverywhereHistoryKey" value=".git&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/.gitignore&#10;routes.php&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/routes.php&#10;badge&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/resources/views/emails/badge-earned.blade.php&#10;create_u&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/database/migrations/2014_10_12_000000_create_users_table.php&#10;.env&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/.env&#10;Routes.&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Providers/RouteServiceProvider.php&#10;groups.&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/Controllers/GroupsController.php&#10;routes&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/routes.php&#10;seed&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/database/seeds/DatabaseSeeder.php&#10;users&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/Controllers/UsersController.php&#10;data&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;UsersC&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/Controllers/UsersController.php&#10;route&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/routes.php&#10;Badges&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/Controllers/BadgesController.php&#10;composer.json&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/composer.json" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/emails" />
       <recent name="$PROJECT_DIR$/database/seeds" />
     </key>
   </component>
@@ -317,17 +519,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431198648000" />
+                <option name="date" value="1431222812000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IjFFQ3I1bk5Bamc5QnVibklHcSt6c2c9PSIsInZhbHVlIjoidjJzck9KeElPY0hBc0RXeERzTFRRNnpzK2F5WkR6R2p0c3hPV1hFYlZ2clJjK0Nja3UxZUYzMzdhV3BHYWV0dGVZeVFtZzBaSGhheHkrRWJCcUNLdGc9PSIsIm1hYyI6ImNhMTYxY2FlZjQyN2M5YmE0NjA5Zjk0ZTYyMTQ3OTY2M2E4Yzk2OGU0ZDAwMGQ1OTNlZTBjZjc3YTI2ZDcwZjIifQ%3D%3D" />
+                <option name="value" value="eyJpdiI6IkRPVGtZTHJCUU5RV3B3MDJFRXhSbUE9PSIsInZhbHVlIjoiVnJaVTFMc2lBZEp4RzhoWjk2cFo4S2ptSTBtQTNRTENHNXNkTzMwKzB6aFhYWjJlOGFQc0VwbHFydVhhTzdqdThjRXJ2a0txSWNsQVJsOFpIN0xnd0E9PSIsIm1hYyI6IjZhZjk5OGFhYTdkMjJiMTdjYzhkOTczOTFkZmEyZmM2YWQ4N2QxMmFiYTZkY2Y5ZWMzZWM4MTI1YmQ0NTA1MzMifQ%3D%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="v1/users/1/badges/1" />
+          <option name="urlPath" value="v1/users/8/badges/17" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -337,18 +539,6 @@
               <KeyValuePair>
                 <option name="key" value="Cache-Control" />
                 <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="" />
-                <option name="value" value="" />
               </KeyValuePair>
             </list>
           </option>
@@ -360,17 +550,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431198648000" />
+                <option name="date" value="1431222812000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IjFFQ3I1bk5Bamc5QnVibklHcSt6c2c9PSIsInZhbHVlIjoidjJzck9KeElPY0hBc0RXeERzTFRRNnpzK2F5WkR6R2p0c3hPV1hFYlZ2clJjK0Nja3UxZUYzMzdhV3BHYWV0dGVZeVFtZzBaSGhheHkrRWJCcUNLdGc9PSIsIm1hYyI6ImNhMTYxY2FlZjQyN2M5YmE0NjA5Zjk0ZTYyMTQ3OTY2M2E4Yzk2OGU0ZDAwMGQ1OTNlZTBjZjc3YTI2ZDcwZjIifQ%3D%3D" />
+                <option name="value" value="eyJpdiI6IkRPVGtZTHJCUU5RV3B3MDJFRXhSbUE9PSIsInZhbHVlIjoiVnJaVTFMc2lBZEp4RzhoWjk2cFo4S2ptSTBtQTNRTENHNXNkTzMwKzB6aFhYWjJlOGFQc0VwbHFydVhhTzdqdThjRXJ2a0txSWNsQVJsOFpIN0xnd0E9PSIsIm1hYyI6IjZhZjk5OGFhYTdkMjJiMTdjYzhkOTczOTFkZmEyZmM2YWQ4N2QxMmFiYTZkY2Y5ZWMzZWM4MTI1YmQ0NTA1MzMifQ%3D%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="v1/badges/1/users/1" />
+          <option name="urlPath" value="v1/users/8/badges/16" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -380,18 +570,6 @@
               <KeyValuePair>
                 <option name="key" value="Cache-Control" />
                 <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="" />
-                <option name="value" value="" />
               </KeyValuePair>
             </list>
           </option>
@@ -403,17 +581,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431198648000" />
+                <option name="date" value="1431222590000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IjFFQ3I1bk5Bamc5QnVibklHcSt6c2c9PSIsInZhbHVlIjoidjJzck9KeElPY0hBc0RXeERzTFRRNnpzK2F5WkR6R2p0c3hPV1hFYlZ2clJjK0Nja3UxZUYzMzdhV3BHYWV0dGVZeVFtZzBaSGhheHkrRWJCcUNLdGc9PSIsIm1hYyI6ImNhMTYxY2FlZjQyN2M5YmE0NjA5Zjk0ZTYyMTQ3OTY2M2E4Yzk2OGU0ZDAwMGQ1OTNlZTBjZjc3YTI2ZDcwZjIifQ%3D%3D" />
+                <option name="value" value="eyJpdiI6IkJKeERRZDNQUUh0Z1J5dGlpNlQzMWc9PSIsInZhbHVlIjoiZ1Y0Yk84ZU5rSmt1bm9PTlMxdVEzcnVVbWVJNXZRRkx3THlzUDdMNmlCelwvTFB0N1FIM2hLQmtMMktuWFZQUXNTXC9zYWJJRERvdzRHRUpTM2VyZ3VYUT09IiwibWFjIjoiYjQwZmIxMjc2NTQyOGM4MjdlZGY0MjQzNTI2ZDg0MDhjZWQ0M2U3N2YwZjdiMzkyZjQxNDMyNzc1OGJlMmIxMiJ9" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/1/users/1" />
+          <option name="urlPath" value="v1/users/8/badges/15" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -423,18 +601,6 @@
               <KeyValuePair>
                 <option name="key" value="Cache-Control" />
                 <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="" />
-                <option name="value" value="" />
               </KeyValuePair>
             </list>
           </option>
@@ -446,17 +612,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431198648000" />
+                <option name="date" value="1431222590000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IjFFQ3I1bk5Bamc5QnVibklHcSt6c2c9PSIsInZhbHVlIjoidjJzck9KeElPY0hBc0RXeERzTFRRNnpzK2F5WkR6R2p0c3hPV1hFYlZ2clJjK0Nja3UxZUYzMzdhV3BHYWV0dGVZeVFtZzBaSGhheHkrRWJCcUNLdGc9PSIsIm1hYyI6ImNhMTYxY2FlZjQyN2M5YmE0NjA5Zjk0ZTYyMTQ3OTY2M2E4Yzk2OGU0ZDAwMGQ1OTNlZTBjZjc3YTI2ZDcwZjIifQ%3D%3D" />
+                <option name="value" value="eyJpdiI6IkJKeERRZDNQUUh0Z1J5dGlpNlQzMWc9PSIsInZhbHVlIjoiZ1Y0Yk84ZU5rSmt1bm9PTlMxdVEzcnVVbWVJNXZRRkx3THlzUDdMNmlCelwvTFB0N1FIM2hLQmtMMktuWFZQUXNTXC9zYWJJRERvdzRHRUpTM2VyZ3VYUT09IiwibWFjIjoiYjQwZmIxMjc2NTQyOGM4MjdlZGY0MjQzNTI2ZDg0MDhjZWQ0M2U3N2YwZjdiMzkyZjQxNDMyNzc1OGJlMmIxMiJ9" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="users/1" />
+          <option name="urlPath" value="v1/users/8/badges/11" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -466,18 +632,6 @@
               <KeyValuePair>
                 <option name="key" value="Cache-Control" />
                 <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="" />
-                <option name="value" value="" />
               </KeyValuePair>
             </list>
           </option>
@@ -489,103 +643,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431198648000" />
+                <option name="date" value="1431222553000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IjFFQ3I1bk5Bamc5QnVibklHcSt6c2c9PSIsInZhbHVlIjoidjJzck9KeElPY0hBc0RXeERzTFRRNnpzK2F5WkR6R2p0c3hPV1hFYlZ2clJjK0Nja3UxZUYzMzdhV3BHYWV0dGVZeVFtZzBaSGhheHkrRWJCcUNLdGc9PSIsIm1hYyI6ImNhMTYxY2FlZjQyN2M5YmE0NjA5Zjk0ZTYyMTQ3OTY2M2E4Yzk2OGU0ZDAwMGQ1OTNlZTBjZjc3YTI2ZDcwZjIifQ%3D%3D" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="users/1" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="" />
-                <option name="value" value="" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="1431198648000" />
-                <option name="domain" value="192.168.56.156" />
-                <option name="name" value="laravel_session" />
-                <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IjFFQ3I1bk5Bamc5QnVibklHcSt6c2c9PSIsInZhbHVlIjoidjJzck9KeElPY0hBc0RXeERzTFRRNnpzK2F5WkR6R2p0c3hPV1hFYlZ2clJjK0Nja3UxZUYzMzdhV3BHYWV0dGVZeVFtZzBaSGhheHkrRWJCcUNLdGc9PSIsIm1hYyI6ImNhMTYxY2FlZjQyN2M5YmE0NjA5Zjk0ZTYyMTQ3OTY2M2E4Yzk2OGU0ZDAwMGQ1OTNlZTBjZjc3YTI2ZDcwZjIifQ%3D%3D" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="users" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="" />
-                <option name="value" value="" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="1431198642000" />
-                <option name="domain" value="192.168.56.156" />
-                <option name="name" value="laravel_session" />
-                <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IkRyOUZYelFFUDlTU3JaYUNwZ2lDVHc9PSIsInZhbHVlIjoiK091bm1FOHVFMk5kb2c2R1luU2o2cHlcL0dOUjJEUmtkanpIVndudUtISkpaMFJSdzdDaHBZdGNSOTA3R2hsaVpyYmlaeHFBM2VhblwvMUxXWElValwvd0E9PSIsIm1hYyI6IjFlNjhjZDhjOGFiYWEwOTczODIzOGM5Y2I5MzcwNjIxODM2NzA0ZWVhZDZlZjQyMWRmZDNkMzBjYjM4MzI2NWIifQ%3D%3D" />
+                <option name="value" value="eyJpdiI6IjBES1NmdnpMVjhzdUdzcnoxYzg2QVE9PSIsInZhbHVlIjoiXC8rRjFHYmF0dnFpdjFVOFJ2Njg2VkRLZVFUbkNOUW52UWl5VVwvWGYwa2dXV1h2UEx1Mzk0ZmRpKzB3S2ZlRnIwTmhSZDNtM0U3U3RlTkZlN2dxaTExZz09IiwibWFjIjoiNjdmMWVmY2JhNjY0YjQ3NjE1MmVjYzJhNmJkMzEwMzBlYjM2NGIyMjRmMDk4MGJhMjRlY2ZjODExYTMwYWM0MCJ9" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/5/users/1" />
+          <option name="urlPath" value="v1/users/7/badges/11" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -595,18 +663,6 @@
               <KeyValuePair>
                 <option name="key" value="Cache-Control" />
                 <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="" />
-                <option name="value" value="" />
               </KeyValuePair>
             </list>
           </option>
@@ -618,17 +674,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431198583000" />
+                <option name="date" value="1431222495000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IkUyXC9WcWlrNG1ETGNmVTZnVXRGSVwvQT09IiwidmFsdWUiOiJYZ1wvUnBFMTlcL1V5bWlCZmkyeVhmdEY5dXc5MGRvUk5ZK2d5TlBZMWFMbCtLSEcxZ0xuVGxUUEFzenkzdURXTEJaOFhyNG84eitBM2pZMjRFejVLMThBPT0iLCJtYWMiOiJlN2JhY2NiYjU4MjEwMDEzNmZhNmE3ZmFiZTVjNzBkODgwMjAzZDgwMjM5NDgxYTIwYTA4MTM2NjAzZTdhODcyIn0%3D" />
+                <option name="value" value="eyJpdiI6ImM0dFkwalErVFRQOFwvTWpnd2p0YTBBPT0iLCJ2YWx1ZSI6InNpVWVMYTQ5MEdVQU5vMEZIOFRzTkRSYUVJeHZmODVIenN4MGZXbUhKYVwvZ09WTnJcLytwaG9oVENtZ3dJMGE5UlAyekZIZ2lLNWh4a0orOWJJYVVzS1E9PSIsIm1hYyI6ImI1YTI4OGRkN2Q3N2Q4ZTAzNTIyN2I2ODUzNzVjMWQ1ZThlYzFhOTY4NmRiYjc0Y2IwNjhhYzYwOTUwYTI4Y2QifQ%3D%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/4/users/1" />
+          <option name="urlPath" value="v1/users/7/badges/13" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -638,18 +694,6 @@
               <KeyValuePair>
                 <option name="key" value="Cache-Control" />
                 <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="" />
-                <option name="value" value="" />
               </KeyValuePair>
             </list>
           </option>
@@ -661,17 +705,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431198149000" />
+                <option name="date" value="1431222495000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IjFYSnZId0RoZHpCcmNpd0VLZEFkbGc9PSIsInZhbHVlIjoiMWNXdzNUclYrUmo4OVBCVkdEcHNEcTkyODVtdHRVNlwvaGRHUThwVTl4MTU4dmxOcXJSVzhDTW9weG9lUVpVSGVVZE51V0tuZHJJXC90RWljRjYrcWRKUT09IiwibWFjIjoiNTllMjM4MzkzNGNkNmU2NDI1MzIxMWQ0NDgwYTI1M2Q0ZjY1MWZhYTRhYzdmYTRjMGU5NzBjODU3YTAwZjgyMSJ9" />
+                <option name="value" value="eyJpdiI6ImM0dFkwalErVFRQOFwvTWpnd2p0YTBBPT0iLCJ2YWx1ZSI6InNpVWVMYTQ5MEdVQU5vMEZIOFRzTkRSYUVJeHZmODVIenN4MGZXbUhKYVwvZ09WTnJcLytwaG9oVENtZ3dJMGE5UlAyekZIZ2lLNWh4a0orOWJJYVVzS1E9PSIsIm1hYyI6ImI1YTI4OGRkN2Q3N2Q4ZTAzNTIyN2I2ODUzNzVjMWQ1ZThlYzFhOTY4NmRiYjc0Y2IwNjhhYzYwOTUwYTI4Y2QifQ%3D%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/4/users/1" />
+          <option name="urlPath" value="v1/users/6/badges/13" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -692,17 +736,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431198149000" />
+                <option name="date" value="1431222257000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IjFYSnZId0RoZHpCcmNpd0VLZEFkbGc9PSIsInZhbHVlIjoiMWNXdzNUclYrUmo4OVBCVkdEcHNEcTkyODVtdHRVNlwvaGRHUThwVTl4MTU4dmxOcXJSVzhDTW9weG9lUVpVSGVVZE51V0tuZHJJXC90RWljRjYrcWRKUT09IiwibWFjIjoiNTllMjM4MzkzNGNkNmU2NDI1MzIxMWQ0NDgwYTI1M2Q0ZjY1MWZhYTRhYzdmYTRjMGU5NzBjODU3YTAwZjgyMSJ9" />
+                <option name="value" value="eyJpdiI6IlRxMHpNajhyKytPNWpzbVpuNEJLU2c9PSIsInZhbHVlIjoiYXAxY1BLTExpXC9KNXBlVUFMbUZXM0JKRE9vanpodmJkaE1UUFVKcXkxeUZZWXdaTk1LRUk4ZlI2VWJqSUdRUWFUWkJXXC81RSt2cGlCN0dzc1VubjlkUT09IiwibWFjIjoiZWRlYWU2NTM5ZDA1YjI4NTFjOGYzOWQ4OTQxNDYzYjM4ZjJlNmU5ZGYxZTdkODc0Mzg0NjUyZjhhMDg4MzY0ZCJ9" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/3/users/1" />
+          <option name="urlPath" value="v1/users/6/badges/12" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -723,17 +767,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431198118000" />
+                <option name="date" value="1431222257000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IkxCVkIzMWdOdHFWeE9hZEtTMTh6M2c9PSIsInZhbHVlIjoiTjlXNVlyZ0RnZlwvcEd6SDluQ2E3aWZabXFUQ3JhcFV4Zmh0WmN2UndCVVBteU03bmRIZlgwSGpaNkp6OXNHR1paOGZ6MmQ3VlpxV0FSS3B3a2EweG9BPT0iLCJtYWMiOiI0ZmRhNWFjZmU4NDdlZjZiMTk1MzZiYTIyMjY0ZWY0MTgwM2MxYTAyOGU3ZjdmYTkxMzdhYjU4ZWJmNWEzZTMzIn0%3D" />
+                <option name="value" value="eyJpdiI6IlRxMHpNajhyKytPNWpzbVpuNEJLU2c9PSIsInZhbHVlIjoiYXAxY1BLTExpXC9KNXBlVUFMbUZXM0JKRE9vanpodmJkaE1UUFVKcXkxeUZZWXdaTk1LRUk4ZlI2VWJqSUdRUWFUWkJXXC81RSt2cGlCN0dzc1VubjlkUT09IiwibWFjIjoiZWRlYWU2NTM5ZDA1YjI4NTFjOGYzOWQ4OTQxNDYzYjM4ZjJlNmU5ZGYxZTdkODc0Mzg0NjUyZjhhMDg4MzY0ZCJ9" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/3/users/1" />
+          <option name="urlPath" value="v1/users/6/badges/11" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -754,17 +798,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431197800000" />
+                <option name="date" value="1431222257000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IlVmTHYzOHZoRUsrTjRyZjhwWHVBSXc9PSIsInZhbHVlIjoiTHhXa1hFT1V5bW8yOVlpRmVjU3pQWUtSVW9KXC82cHdka3k3ZkZHbWF6a1pjbkQrUUF5cm1DOVhNMjNGVGhGVjl6Ym01aHBmU29yWUZRR0xsbEVrV2FBPT0iLCJtYWMiOiI1ZTM0OTRkYTc1NDFlZDRlMjc4OGY2NmJkY2Y2MjI2YWJkMTQ3MzA2MmIyYTAzY2FlODM2ZjBlOGZlYjkxYzAyIn0%3D" />
+                <option name="value" value="eyJpdiI6IlRxMHpNajhyKytPNWpzbVpuNEJLU2c9PSIsInZhbHVlIjoiYXAxY1BLTExpXC9KNXBlVUFMbUZXM0JKRE9vanpodmJkaE1UUFVKcXkxeUZZWXdaTk1LRUk4ZlI2VWJqSUdRUWFUWkJXXC81RSt2cGlCN0dzc1VubjlkUT09IiwibWFjIjoiZWRlYWU2NTM5ZDA1YjI4NTFjOGYzOWQ4OTQxNDYzYjM4ZjJlNmU5ZGYxZTdkODc0Mzg0NjUyZjhhMDg4MzY0ZCJ9" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/2/users/1" />
+          <option name="urlPath" value="v1/users/6/badges/10" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -785,17 +829,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431197800000" />
+                <option name="date" value="1431222225000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IlVmTHYzOHZoRUsrTjRyZjhwWHVBSXc9PSIsInZhbHVlIjoiTHhXa1hFT1V5bW8yOVlpRmVjU3pQWUtSVW9KXC82cHdka3k3ZkZHbWF6a1pjbkQrUUF5cm1DOVhNMjNGVGhGVjl6Ym01aHBmU29yWUZRR0xsbEVrV2FBPT0iLCJtYWMiOiI1ZTM0OTRkYTc1NDFlZDRlMjc4OGY2NmJkY2Y2MjI2YWJkMTQ3MzA2MmIyYTAzY2FlODM2ZjBlOGZlYjkxYzAyIn0%3D" />
+                <option name="value" value="eyJpdiI6IjJrOWJPNU9kMnpsZml3WnFuc29nU3c9PSIsInZhbHVlIjoid2ZaTE5XMWxmSTVyUlA5ekUwZEgxQUpQdGVoRTAzYmdETG5wMlhMUXg5Q3hkbnNxOWoyXC8zOHRScm4rUGUxMVcwelZjWG1HV1Z4Qzl1K2tQSUZZM3FBPT0iLCJtYWMiOiI1NjNjZGUxNGY0MDk3Y2Y1YTQ4Mjk5ZTQ1NzMxZmMwMzhkMDBmNjM4ZTk2YzhhYzgwYTU1Yjk0OTA0NzRiMWIzIn0%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/1/users/1" />
+          <option name="urlPath" value="v1/users/6/badges/9" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -816,17 +860,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431197425000" />
+                <option name="date" value="1431222225000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6ImNoQWUxNEhRYmtWNlFrbUN6eVNhUWc9PSIsInZhbHVlIjoib0x4WW1OTHRhRkRUMkhxbDc1M1NwUTJpQ25panowdWdOY3dyU3BjYXZMQU41N3ZhaEh2TWRPdjFXeTZVRVZtWUJoeUVIOE5EWWljNDlkSnpFQ29DZGc9PSIsIm1hYyI6ImU4ZDhhYzFmN2Y0YjM5MWE3MjhkNDkyMDgxMzAxMjNmMjllNTQ4MDcyNGFmOTQyODY2YTIxMTU2MDhmNzMzY2UifQ%3D%3D" />
+                <option name="value" value="eyJpdiI6IjJrOWJPNU9kMnpsZml3WnFuc29nU3c9PSIsInZhbHVlIjoid2ZaTE5XMWxmSTVyUlA5ekUwZEgxQUpQdGVoRTAzYmdETG5wMlhMUXg5Q3hkbnNxOWoyXC8zOHRScm4rUGUxMVcwelZjWG1HV1Z4Qzl1K2tQSUZZM3FBPT0iLCJtYWMiOiI1NjNjZGUxNGY0MDk3Y2Y1YTQ4Mjk5ZTQ1NzMxZmMwMzhkMDBmNjM4ZTk2YzhhYzgwYTU1Yjk0OTA0NzRiMWIzIn0%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/1/users/1" />
+          <option name="urlPath" value="v1/users/6/badges/14" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -847,17 +891,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431197425000" />
+                <option name="date" value="1431222090000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6ImNoQWUxNEhRYmtWNlFrbUN6eVNhUWc9PSIsInZhbHVlIjoib0x4WW1OTHRhRkRUMkhxbDc1M1NwUTJpQ25panowdWdOY3dyU3BjYXZMQU41N3ZhaEh2TWRPdjFXeTZVRVZtWUJoeUVIOE5EWWljNDlkSnpFQ29DZGc9PSIsIm1hYyI6ImU4ZDhhYzFmN2Y0YjM5MWE3MjhkNDkyMDgxMzAxMjNmMjllNTQ4MDcyNGFmOTQyODY2YTIxMTU2MDhmNzMzY2UifQ%3D%3D" />
+                <option name="value" value="eyJpdiI6IkIyaEtPQlhMRDhIcmlMMFZPb3pqSXc9PSIsInZhbHVlIjoiMjBoTllSZEZad252Y0JKdkFIWCtLTHpmOVlUQ1MwWUtUWkh6emhiUUNRUnVYRVRwVlozYkptY3I1ZG5oN1RDQmVyMHNGY0ZPdmNTU09IQTl4NkFkeFE9PSIsIm1hYyI6ImE4MjZhYzI0ZDExOTllMzcxYTA4ZGEzNTBkODNmZjBhYjQ0Y2JmMDg1ZGNhOTZkOGZkNTBhZDMyZTk4NjUzNmUifQ%3D%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/22/users/7" />
+          <option name="urlPath" value="v1/users/6/badges/13" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -878,17 +922,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431197425000" />
+                <option name="date" value="1431222046000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6Im0xend3TWc4QVRqeDhWcWI0dXBIOUE9PSIsInZhbHVlIjoiMDJuYzdtckJKYjlLTFlLbmhtRjJXbTBwazQyYUp2VFJuTXlhdGdQeUl2MFl6Zk1hRkN4bmZvMFBCQitEa2JjNGhqWHFSN3YrMDV2NlwvdmxlODljS25BPT0iLCJtYWMiOiI1NWNhZjAwM2ZjNzczMjBiM2ExMjFkOWY5MDM2OGMwY2U5NTEzZDk2ZDlkYmIxNTQzOTIxMTEzZmYxZTRiNmNlIn0%3D" />
+                <option name="value" value="eyJpdiI6Imhzc25Sb3ZWK3BFUUE5M1NUWVB6Q1E9PSIsInZhbHVlIjoidjVKbnZqMlNMdGtnS1FiQWN3dWhJVFA0NXZKUHcxVmxBWGU2dWtMXC9tUEpoUnZ2WE02aWdWSzVLKzNKSXY3K0dNSnVLWnVscnRCbGZYWFlidGlHc25RPT0iLCJtYWMiOiIwZjU2MmM5ZmI3MzEyZGRlZTgyODc4NTM2ODZmODc2YWQzODM5MTY2Mjc2MDdjMzM0YTdmZmY5YzNkMDUzMzA0In0%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/22/users/7" />
+          <option name="urlPath" value="v1/users/6/badges/14" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -909,17 +953,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431197423000" />
+                <option name="date" value="1431221975000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6InhBUnBMQ3M3Q3RFQm1SQVhKUUdKd0E9PSIsInZhbHVlIjoidnU5cHc2dnpPUWNlbVlBRDc3OFpHUFwvQ0R4U2MxWVhTM3R4bG5GYjcycEl1S1BkaWxtdVptek02WVhQNU5iVmlzcE1zN2M5MFptXC9vSURWZFFcL1lWaXc9PSIsIm1hYyI6IjY1OGZmMGQzMWIyYjljN2RmOGQyYzFiOTY0YThhOTJiNjZlZWVhOWI1YjFkZDQ3Y2U4NDk2NDZjNmE0YjI4NWQifQ%3D%3D" />
+                <option name="value" value="eyJpdiI6ImZmQnlMNnN1aTg3YWN3RlVyUkNZdGc9PSIsInZhbHVlIjoiaTV6VEgrRUpSK2Q3RFBTSk50QXp6UUdNdWdmTHFHcnhFZlgwRGVUYjVyb2hFWE81ZjVzdGhMRTFNTGllcExJYTFQN1Q5dXo3UEZ1aW9ZK3NQT0FuYmc9PSIsIm1hYyI6IjdkOTgyZDJmNzgyMTBjZjVhMjRiYjc5YjgzYTY2YTMyNDZjNTk0NWRhZTI2ZWY0NTUwMjVkOTVmZjMxNmQ0M2MifQ%3D%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/22/users/7" />
+          <option name="urlPath" value="v1/users/5/badges/14" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -940,17 +984,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431197422000" />
+                <option name="date" value="1431221975000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IjFZQnVoN0tVbGNEbkY5cGNmTGdSaWc9PSIsInZhbHVlIjoidGhJWDNIWVFLbWtGNmRVc0NSNmNyZWU2RjdubTJyaHk5a3NyNTZnM3JRMzUybEo1UUx6elEzRU1LQXU0eVliMVdOQ2huYjU0QjdQSkVsNzd1RURaS2c9PSIsIm1hYyI6ImIxNDFmMWQwMGE1YzUyZDk3Y2JiMTk0NmY4MzBmOTk0ODNlMjJjYzFmMGZiMjY2Y2I0Zjc2OGQ5ZmM5NDgxYjEifQ%3D%3D" />
+                <option name="value" value="eyJpdiI6ImZmQnlMNnN1aTg3YWN3RlVyUkNZdGc9PSIsInZhbHVlIjoiaTV6VEgrRUpSK2Q3RFBTSk50QXp6UUdNdWdmTHFHcnhFZlgwRGVUYjVyb2hFWE81ZjVzdGhMRTFNTGllcExJYTFQN1Q5dXo3UEZ1aW9ZK3NQT0FuYmc9PSIsIm1hYyI6IjdkOTgyZDJmNzgyMTBjZjVhMjRiYjc5YjgzYTY2YTMyNDZjNTk0NWRhZTI2ZWY0NTUwMjVkOTVmZjMxNmQ0M2MifQ%3D%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/22/users/7" />
+          <option name="urlPath" value="v1/users/5/badges/13" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -971,17 +1015,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431197421000" />
+                <option name="date" value="1431221975000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IldRUXpYeEZtVnNEaWdlWlk0UkJRaUE9PSIsInZhbHVlIjoiOGVCczdlNkNDQU9CMVJjbVFFT1ljbng0c2dabW1hYTB6SFE2eHVHcTJOemZaUzQ1TGM1VU5cLzBWXC9IZFozNnB5anlGUnRUTUhacU80SHBvXC9Qa0tBOWc9PSIsIm1hYyI6IjAwYWQwZGIxZTQzNzI0NTcyYTFhMjVkZjM0NmIxMDdmYThhOGZiNzY5ZmU0ODgzMTUzNTYyZjI5ZDdhMDc4YzgifQ%3D%3D" />
+                <option name="value" value="eyJpdiI6ImZmQnlMNnN1aTg3YWN3RlVyUkNZdGc9PSIsInZhbHVlIjoiaTV6VEgrRUpSK2Q3RFBTSk50QXp6UUdNdWdmTHFHcnhFZlgwRGVUYjVyb2hFWE81ZjVzdGhMRTFNTGllcExJYTFQN1Q5dXo3UEZ1aW9ZK3NQT0FuYmc9PSIsIm1hYyI6IjdkOTgyZDJmNzgyMTBjZjVhMjRiYjc5YjgzYTY2YTMyNDZjNTk0NWRhZTI2ZWY0NTUwMjVkOTVmZjMxNmQ0M2MifQ%3D%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/22/users/7" />
+          <option name="urlPath" value="v1/users/5/badges/12" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -1002,17 +1046,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431197420000" />
+                <option name="date" value="1431221975000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6InRwbFVySUt0R2RQVFZkcVVYMEQ1ZWc9PSIsInZhbHVlIjoiSmhhQ0ppZGtcL0V2RlFIVitNV0F3ZGlQKzYxaW1vM2IzOFVFRW9aUXYxY3NQXC84ZXBrSUpSZnpzTFBwaGlBTzJDaXg4ZVBsVGRFRUxYQnFkUnI0bHJLdz09IiwibWFjIjoiMzE4OWUyZWRhYTkzOGZiYmFmNTZmNDI3MzY5YjdkMDI2YWNmNzNjMTE1ZWI0YjY4NzgwNjA1ZTkxNzgxY2FlMiJ9" />
+                <option name="value" value="eyJpdiI6ImZmQnlMNnN1aTg3YWN3RlVyUkNZdGc9PSIsInZhbHVlIjoiaTV6VEgrRUpSK2Q3RFBTSk50QXp6UUdNdWdmTHFHcnhFZlgwRGVUYjVyb2hFWE81ZjVzdGhMRTFNTGllcExJYTFQN1Q5dXo3UEZ1aW9ZK3NQT0FuYmc9PSIsIm1hYyI6IjdkOTgyZDJmNzgyMTBjZjVhMjRiYjc5YjgzYTY2YTMyNDZjNTk0NWRhZTI2ZWY0NTUwMjVkOTVmZjMxNmQ0M2MifQ%3D%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/22/users/7" />
+          <option name="urlPath" value="v1/users/5/badges/11" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -1033,17 +1077,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431197420000" />
+                <option name="date" value="1431221849000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IkM2YmpyQVNHbkFTeDF1eWRvdnR1WWc9PSIsInZhbHVlIjoiVFlFMDE0aWw4Vno5cmFpSmpSdno2UmRpdDRQejQ2akVJSjJPYkNnOVQ1Zk1cL2o5NVFqWmJ6dXVIZzVNc3lBTnFCXC84bk5SXC8yNFpEMWRtZVwvNjdaUFFBPT0iLCJtYWMiOiIxODAzM2E0ZjEwOTI4YjRkNDJmMzBhY2Y1YjI3NzRmMDQ2MDMzMTRmZjczNmRkZTBlYTE2YWUzYjgzYTI0NWQ4In0%3D" />
+                <option name="value" value="eyJpdiI6IlJVMTZXN2doamJCbVNseHFGQXV0VlE9PSIsInZhbHVlIjoiejIyWERhcktob1VkUmxjMEZjSE5ia2gzUm9mUjM2aXFob2dMOE80NGdSREJKWkR3UmFRTENqV09GNElJMzN4T3VOZmJJcmZDMlVMKzVwbHArMHdXT3c9PSIsIm1hYyI6IjdiYmI4MmU2MDA4ZWJkZGQwODY2N2Q1NTkwYTI1MDI1ZDc3NmU1NTQ2MDI2ZDUyZDA3OGQzOTVjNmFjZGU0MzUifQ%3D%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/22/users/7" />
+          <option name="urlPath" value="v1/users/5/badges/10" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -1064,17 +1108,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431197419000" />
+                <option name="date" value="1431219462000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IjBJWTZIeWgyU1d5MVR2M014eCtYSmc9PSIsInZhbHVlIjoiTTZNeFYweHBlcWhPbEV3c3JBbDJoanV3ZmdYbkJQdmU3d1NOUDNuWnlQbmxzMjNlVnJ2QngyUHBXOEpzUjZQUlR0eHZYeEtLaFNVZFNWaVM0TjMzV2c9PSIsIm1hYyI6IjY2MzE3NWQ2N2Q3ODBiMzRjZjdiYzVhODg5NGRhNzU1MWY3ZGNjOGU2MDcwMTc2ZWQ3MWIwNDM0YmNlZmNkODQifQ%3D%3D" />
+                <option name="value" value="eyJpdiI6IlM2eHlUUElmOTlYUGhSYkRHU3BJTWc9PSIsInZhbHVlIjoiVklWdEhoOFlyWU1uXC8reWpFRWF5cTkzWTd4ZXFuUFpPcE1wQ0Y3UUtKNURwejE5YkJUTGluZWNSYUNtZ1hFblNXV0hxN0NLVFVIejRvMytvaGt6ZFVnPT0iLCJtYWMiOiI4YjNmMGZjYTQxOWQ3MDc2NTY1ZGZkNzgxNzc3ODFhYTI1NmQ4MDczMDIwNWE2ZWQ1NGUyOWNjZDRlNzEyMDdkIn0%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/22/users/7" />
+          <option name="urlPath" value="v1/users/5/badges/9" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -1095,17 +1139,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431197416000" />
+                <option name="date" value="1431219462000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6InJ5RFdtc1wvalhyWXFYU2ozdGFXTHZBPT0iLCJ2YWx1ZSI6IjBhMHdZc0VBaG11QUFKU1pZRTVXbUZpSXVrOGZFdFhpbFg0aVRpaEdEbUZCY1VvcWdJRUJqSDJtdGhHV3NSTFwvS29HVE1OaGFROWozdXIraURkUmhoZz09IiwibWFjIjoiOTY1MjEwODllYjVjMjA5ZGEyOGViYmZhMDcxZGMzODZlYmUxYmVkOGI4Y2Q0YTU3MzBhNjExOWMxMTM2YThlNSJ9" />
+                <option name="value" value="eyJpdiI6IlM2eHlUUElmOTlYUGhSYkRHU3BJTWc9PSIsInZhbHVlIjoiVklWdEhoOFlyWU1uXC8reWpFRWF5cTkzWTd4ZXFuUFpPcE1wQ0Y3UUtKNURwejE5YkJUTGluZWNSYUNtZ1hFblNXV0hxN0NLVFVIejRvMytvaGt6ZFVnPT0iLCJtYWMiOiI4YjNmMGZjYTQxOWQ3MDc2NTY1ZGZkNzgxNzc3ODFhYTI1NmQ4MDczMDIwNWE2ZWQ1NGUyOWNjZDRlNzEyMDdkIn0%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/22/users/7" />
+          <option name="urlPath" value="v1/users/5/badges/11" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -1126,17 +1170,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431197415000" />
+                <option name="date" value="1431219462000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6ImJBT240alRCcU9nWHRKZFR0VDFOcEE9PSIsInZhbHVlIjoiSERcL05PdEdiWEpBSFFqbHRoZ1pnMDdubVdLUFhMM0pKRjdHcERzUWxOS05MTXR3Vm45KzFzUlJcL1ZkVlplTk9UeDhTM3RVNU43YXdQeDNGcmF2Y1l5dz09IiwibWFjIjoiNDcxYTFhZmIzZWZiYTQ2OGM4NmZhODFhNmEyZmUzYzUyNTViYmFkMzI1Y2M1YmY3NmI5NzI1ZTE1NTQxODY5NSJ9" />
+                <option name="value" value="eyJpdiI6IlM2eHlUUElmOTlYUGhSYkRHU3BJTWc9PSIsInZhbHVlIjoiVklWdEhoOFlyWU1uXC8reWpFRWF5cTkzWTd4ZXFuUFpPcE1wQ0Y3UUtKNURwejE5YkJUTGluZWNSYUNtZ1hFblNXV0hxN0NLVFVIejRvMytvaGt6ZFVnPT0iLCJtYWMiOiI4YjNmMGZjYTQxOWQ3MDc2NTY1ZGZkNzgxNzc3ODFhYTI1NmQ4MDczMDIwNWE2ZWQ1NGUyOWNjZDRlNzEyMDdkIn0%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/22/users/7" />
+          <option name="urlPath" value="v1/users/5/badges/15" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -1157,17 +1201,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431197413000" />
+                <option name="date" value="1431219462000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6InpnNFVqb011Q2RvZzhsY2FxYUVScEE9PSIsInZhbHVlIjoiZXNQYUFmcUs0S1orQUY3R0tGZFhyNDJsVm9BZmdhbDhld1dKVjdTbkdWWllXanRvNVNCZDNWSnB6YW9Ua2V0SU8rM3VuWG1QN0crVDQxNkdiRFd0SXc9PSIsIm1hYyI6ImUxYmI0MjFkMTVhODBhYzg3OGEzN2RlNzQ3M2QwNmY5NjU5MTFhMDA5NTkwYjkyZjY0OTUxYzNmNzVjYmYyYWYifQ%3D%3D" />
+                <option name="value" value="eyJpdiI6IlM2eHlUUElmOTlYUGhSYkRHU3BJTWc9PSIsInZhbHVlIjoiVklWdEhoOFlyWU1uXC8reWpFRWF5cTkzWTd4ZXFuUFpPcE1wQ0Y3UUtKNURwejE5YkJUTGluZWNSYUNtZ1hFblNXV0hxN0NLVFVIejRvMytvaGt6ZFVnPT0iLCJtYWMiOiI4YjNmMGZjYTQxOWQ3MDc2NTY1ZGZkNzgxNzc3ODFhYTI1NmQ4MDczMDIwNWE2ZWQ1NGUyOWNjZDRlNzEyMDdkIn0%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/22/users/7" />
+          <option name="urlPath" value="v1/users/5/badges/12" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -1188,17 +1232,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431197020000" />
+                <option name="date" value="1431219462000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6ImVUaWRFQ2tRelhQUktFWkdJeUxMK1E9PSIsInZhbHVlIjoiazJLTWhuTkRPUmN1QmFoS2JlTjh6U0liQSt0WkpwYkYzZE9FeDMyeFlvWFgwY2VONm4rNEZRM0xESktVREtMdnJZTEp0T1NxcGJoNmYzaFQ0TVppXC9BPT0iLCJtYWMiOiJlZjhhZWJlZGFkMGM4Y2U4OWFlODU0MDEzMzAxZDhjOGI4ODAyNWUwZmMyZDI1OTU0YWUyYTQ1MDFhOWVkMjExIn0%3D" />
+                <option name="value" value="eyJpdiI6IlM2eHlUUElmOTlYUGhSYkRHU3BJTWc9PSIsInZhbHVlIjoiVklWdEhoOFlyWU1uXC8reWpFRWF5cTkzWTd4ZXFuUFpPcE1wQ0Y3UUtKNURwejE5YkJUTGluZWNSYUNtZ1hFblNXV0hxN0NLVFVIejRvMytvaGt6ZFVnPT0iLCJtYWMiOiI4YjNmMGZjYTQxOWQ3MDc2NTY1ZGZkNzgxNzc3ODFhYTI1NmQ4MDczMDIwNWE2ZWQ1NGUyOWNjZDRlNzEyMDdkIn0%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/22/users/7" />
+          <option name="urlPath" value="v1/users/4/badges/11" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -1219,17 +1263,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431197020000" />
+                <option name="date" value="1431219462000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6ImVUaWRFQ2tRelhQUktFWkdJeUxMK1E9PSIsInZhbHVlIjoiazJLTWhuTkRPUmN1QmFoS2JlTjh6U0liQSt0WkpwYkYzZE9FeDMyeFlvWFgwY2VONm4rNEZRM0xESktVREtMdnJZTEp0T1NxcGJoNmYzaFQ0TVppXC9BPT0iLCJtYWMiOiJlZjhhZWJlZGFkMGM4Y2U4OWFlODU0MDEzMzAxZDhjOGI4ODAyNWUwZmMyZDI1OTU0YWUyYTQ1MDFhOWVkMjExIn0%3D" />
+                <option name="value" value="eyJpdiI6IlM2eHlUUElmOTlYUGhSYkRHU3BJTWc9PSIsInZhbHVlIjoiVklWdEhoOFlyWU1uXC8reWpFRWF5cTkzWTd4ZXFuUFpPcE1wQ0Y3UUtKNURwejE5YkJUTGluZWNSYUNtZ1hFblNXV0hxN0NLVFVIejRvMytvaGt6ZFVnPT0iLCJtYWMiOiI4YjNmMGZjYTQxOWQ3MDc2NTY1ZGZkNzgxNzc3ODFhYTI1NmQ4MDczMDIwNWE2ZWQ1NGUyOWNjZDRlNzEyMDdkIn0%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/1/users/7" />
+          <option name="urlPath" value="v1/users/4/badges/12" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -1250,17 +1294,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431197020000" />
+                <option name="date" value="1431219462000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6ImVUaWRFQ2tRelhQUktFWkdJeUxMK1E9PSIsInZhbHVlIjoiazJLTWhuTkRPUmN1QmFoS2JlTjh6U0liQSt0WkpwYkYzZE9FeDMyeFlvWFgwY2VONm4rNEZRM0xESktVREtMdnJZTEp0T1NxcGJoNmYzaFQ0TVppXC9BPT0iLCJtYWMiOiJlZjhhZWJlZGFkMGM4Y2U4OWFlODU0MDEzMzAxZDhjOGI4ODAyNWUwZmMyZDI1OTU0YWUyYTQ1MDFhOWVkMjExIn0%3D" />
+                <option name="value" value="eyJpdiI6IlM2eHlUUElmOTlYUGhSYkRHU3BJTWc9PSIsInZhbHVlIjoiVklWdEhoOFlyWU1uXC8reWpFRWF5cTkzWTd4ZXFuUFpPcE1wQ0Y3UUtKNURwejE5YkJUTGluZWNSYUNtZ1hFblNXV0hxN0NLVFVIejRvMytvaGt6ZFVnPT0iLCJtYWMiOiI4YjNmMGZjYTQxOWQ3MDc2NTY1ZGZkNzgxNzc3ODFhYTI1NmQ4MDczMDIwNWE2ZWQ1NGUyOWNjZDRlNzEyMDdkIn0%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/1/users/1" />
+          <option name="urlPath" value="v1/users/4/badges/13" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -1281,17 +1325,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431196963000" />
+                <option name="date" value="1431219462000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IlZSekJmaTNkMnlxMVk4SlwvN2NUekV3PT0iLCJ2YWx1ZSI6Im9vTDd5R3AyeDFHa0cxMkJVVDdOcXdDNUs4VmtZRUdna2Y1Q1k5eFFXSG8wYVNBbklxUWZLNDhybnlISWZuQys1VGFlWXZnY1lWK1U5NUo0XC91bHIrZz09IiwibWFjIjoiNjc3N2Q5OWY2MmE0OGVhOGM5MTI1ZTU4ODM3YmEwZmM2OGE5NTEwZWU0NzNhZjkyYTZiODJkMTRmZThiMzcxMiJ9" />
+                <option name="value" value="eyJpdiI6IlM2eHlUUElmOTlYUGhSYkRHU3BJTWc9PSIsInZhbHVlIjoiVklWdEhoOFlyWU1uXC8reWpFRWF5cTkzWTd4ZXFuUFpPcE1wQ0Y3UUtKNURwejE5YkJUTGluZWNSYUNtZ1hFblNXV0hxN0NLVFVIejRvMytvaGt6ZFVnPT0iLCJtYWMiOiI4YjNmMGZjYTQxOWQ3MDc2NTY1ZGZkNzgxNzc3ODFhYTI1NmQ4MDczMDIwNWE2ZWQ1NGUyOWNjZDRlNzEyMDdkIn0%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/1/users/1" />
+          <option name="urlPath" value="v1/users/4/badges/14" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -1312,17 +1356,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431196474000" />
+                <option name="date" value="1431219462000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IlNzQ3ExY1gwQktTXC9PeVNXTmNcLzl3UT09IiwidmFsdWUiOiJ2T1IxUDZrZ1VwUFlcL0Jwczg0ZkE0WndHZUk5ZTE2S3dWWWZmbnRzOTVaWUZLYVFjQ2FtOXFLQnJkQnJHZkh0V1F5TmtzdGVlbWFNUEZXNnB6czdEWHc9PSIsIm1hYyI6IjI5M2M3NDI0M2Y5YTE2ZDkxYTEwZjEzNGE2MTNlOTM1ODdhYzVmZTVhYzYzMzRiOTVhM2EwZTgwMzU1ZjVlZTkifQ%3D%3D" />
+                <option name="value" value="eyJpdiI6IlM2eHlUUElmOTlYUGhSYkRHU3BJTWc9PSIsInZhbHVlIjoiVklWdEhoOFlyWU1uXC8reWpFRWF5cTkzWTd4ZXFuUFpPcE1wQ0Y3UUtKNURwejE5YkJUTGluZWNSYUNtZ1hFblNXV0hxN0NLVFVIejRvMytvaGt6ZFVnPT0iLCJtYWMiOiI4YjNmMGZjYTQxOWQ3MDc2NTY1ZGZkNzgxNzc3ODFhYTI1NmQ4MDczMDIwNWE2ZWQ1NGUyOWNjZDRlNzEyMDdkIn0%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/1/users/1" />
+          <option name="urlPath" value="v1/users/4/badges/16" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -1343,48 +1387,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431196474000" />
+                <option name="date" value="1431219462000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IlNzQ3ExY1gwQktTXC9PeVNXTmNcLzl3UT09IiwidmFsdWUiOiJ2T1IxUDZrZ1VwUFlcL0Jwczg0ZkE0WndHZUk5ZTE2S3dWWWZmbnRzOTVaWUZLYVFjQ2FtOXFLQnJkQnJHZkh0V1F5TmtzdGVlbWFNUEZXNnB6czdEWHc9PSIsIm1hYyI6IjI5M2M3NDI0M2Y5YTE2ZDkxYTEwZjEzNGE2MTNlOTM1ODdhYzVmZTVhYzYzMzRiOTVhM2EwZTgwMzU1ZjVlZTkifQ%3D%3D" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/1/users/1" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="1431184314000" />
-                <option name="domain" value="192.168.56.156" />
-                <option name="name" value="laravel_session" />
-                <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IlJveHp3bHBkc3lmQittNWtNMHliRWc9PSIsInZhbHVlIjoieUFzWXlaczFcL3ZmS3BWRVwvMTFIS2FZM3RPV3NFMjJydHdxNUtsQ0JcLzRzMUplR2pZUFI4TTJhVXU2Z0ZKT2xHUldRUDBETXFKWkorNW9CZm81Wk44Nnc9PSIsIm1hYyI6ImZjMTY2ODIwYjlmYTBiYTA0MTA3YzZjYTYxODI2YzZiYjZlZjZiM2E4MDU2MzA4Y2NiZjEwNGQ0NzcyNjg3Y2QifQ%3D%3D" />
+                <option name="value" value="eyJpdiI6IlM2eHlUUElmOTlYUGhSYkRHU3BJTWc9PSIsInZhbHVlIjoiVklWdEhoOFlyWU1uXC8reWpFRWF5cTkzWTd4ZXFuUFpPcE1wQ0Y3UUtKNURwejE5YkJUTGluZWNSYUNtZ1hFblNXV0hxN0NLVFVIejRvMytvaGt6ZFVnPT0iLCJtYWMiOiI4YjNmMGZjYTQxOWQ3MDc2NTY1ZGZkNzgxNzc3ODFhYTI1NmQ4MDczMDIwNWE2ZWQ1NGUyOWNjZDRlNzEyMDdkIn0%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/1/users/1" />
+          <option name="urlPath" value="v1/users/3/badges/16" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -1405,17 +1418,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431184314000" />
+                <option name="date" value="1431219462000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IlJveHp3bHBkc3lmQittNWtNMHliRWc9PSIsInZhbHVlIjoieUFzWXlaczFcL3ZmS3BWRVwvMTFIS2FZM3RPV3NFMjJydHdxNUtsQ0JcLzRzMUplR2pZUFI4TTJhVXU2Z0ZKT2xHUldRUDBETXFKWkorNW9CZm81Wk44Nnc9PSIsIm1hYyI6ImZjMTY2ODIwYjlmYTBiYTA0MTA3YzZjYTYxODI2YzZiYjZlZjZiM2E4MDU2MzA4Y2NiZjEwNGQ0NzcyNjg3Y2QifQ%3D%3D" />
+                <option name="value" value="eyJpdiI6IlM2eHlUUElmOTlYUGhSYkRHU3BJTWc9PSIsInZhbHVlIjoiVklWdEhoOFlyWU1uXC8reWpFRWF5cTkzWTd4ZXFuUFpPcE1wQ0Y3UUtKNURwejE5YkJUTGluZWNSYUNtZ1hFblNXV0hxN0NLVFVIejRvMytvaGt6ZFVnPT0iLCJtYWMiOiI4YjNmMGZjYTQxOWQ3MDc2NTY1ZGZkNzgxNzc3ODFhYTI1NmQ4MDczMDIwNWE2ZWQ1NGUyOWNjZDRlNzEyMDdkIn0%3D" />
               </Biscuit>
             </list>
           </option>
-          <option name="httpMethod" value="POST" />
+          <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges/1/users/1" />
+          <option name="urlPath" value="v1/users/3/badges/12" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -1436,17 +1449,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431184296000" />
+                <option name="date" value="1431219462000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6ImpOTEtYck5YUGsxWkVpWGhtSjNiVlE9PSIsInZhbHVlIjoiaXVoRWdmTlwvVXRKNUtCaUtsQ1BNdnpENklVeXUrWFpZQmRqYmNUZGtVN0JCTDBmTlJ5WWNNaWpQVk82cEE3UkE4WWJVbTVMXC84VmxCQldrVGRFaURMdz09IiwibWFjIjoiMzQ5N2Y4M2EyZjY3MjQ2NjdkN2U5Njk0YTZmZDUwZDU3ODk1YmZlN2ZhMzU5NGRjYTQ1NTJiNzM3NWMyZTIzYyJ9" />
+                <option name="value" value="eyJpdiI6IlM2eHlUUElmOTlYUGhSYkRHU3BJTWc9PSIsInZhbHVlIjoiVklWdEhoOFlyWU1uXC8reWpFRWF5cTkzWTd4ZXFuUFpPcE1wQ0Y3UUtKNURwejE5YkJUTGluZWNSYUNtZ1hFblNXV0hxN0NLVFVIejRvMytvaGt6ZFVnPT0iLCJtYWMiOiI4YjNmMGZjYTQxOWQ3MDc2NTY1ZGZkNzgxNzc3ODFhYTI1NmQ4MDczMDIwNWE2ZWQ1NGUyOWNjZDRlNzEyMDdkIn0%3D" />
               </Biscuit>
             </list>
           </option>
-          <option name="httpMethod" value="POST" />
+          <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges" />
+          <option name="urlPath" value="v1/users/3/badges/13" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -1467,17 +1480,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431182673000" />
+                <option name="date" value="1431219462000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IitHNXNXbDM1OUlQRTRUaDRqUUJablE9PSIsInZhbHVlIjoiRnAxbFJ4UWJYbXd5YTNIUTBTYWcyRkkzNUtSWmVrNEhTNHVJUDJJY2VLeHd6bExGVlB4UXUzZmRhMEhCaTJDMjB0Znh4em9INGZXRDZkdmMzNk5Lenc9PSIsIm1hYyI6IjkyNDAxZTdjZTg3MmEyNWNhYWU1ODZiNjI1Y2M4MzkyNGY3NDdjNjk5MDZiNmU5MWQyM2E3OTkxYjAwOTE2YjkifQ%3D%3D" />
+                <option name="value" value="eyJpdiI6IlM2eHlUUElmOTlYUGhSYkRHU3BJTWc9PSIsInZhbHVlIjoiVklWdEhoOFlyWU1uXC8reWpFRWF5cTkzWTd4ZXFuUFpPcE1wQ0Y3UUtKNURwejE5YkJUTGluZWNSYUNtZ1hFblNXV0hxN0NLVFVIejRvMytvaGt6ZFVnPT0iLCJtYWMiOiI4YjNmMGZjYTQxOWQ3MDc2NTY1ZGZkNzgxNzc3ODFhYTI1NmQ4MDczMDIwNWE2ZWQ1NGUyOWNjZDRlNzEyMDdkIn0%3D" />
               </Biscuit>
             </list>
           </option>
-          <option name="httpMethod" value="POST" />
+          <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges" />
+          <option name="urlPath" value="v1/users/3/badges/14" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -1498,17 +1511,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431182388000" />
+                <option name="date" value="1431219462000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6Ikl3bGo1V2djclwvdzRoMXB6VndZMW53PT0iLCJ2YWx1ZSI6Ijl3Q2JqcXljQ1RJTUhEVURTRDBVOEttUzFxWFBZbTNKTkFmcFwvd3doU0JJWDZ3ckVZS3JVY01kSFQ2WEttSmVFeDE1blJUZENpTjhVazl6cVExbmhRUT09IiwibWFjIjoiNmYwNjZkY2E0ZmUwMjgzMjk4ODY4NWMxNTc3MTAzNWFiYjM5NWNlZTUxNTY3NzdkMWI4ZDUzNWI2YTNjNTg0ZCJ9" />
+                <option name="value" value="eyJpdiI6IlM2eHlUUElmOTlYUGhSYkRHU3BJTWc9PSIsInZhbHVlIjoiVklWdEhoOFlyWU1uXC8reWpFRWF5cTkzWTd4ZXFuUFpPcE1wQ0Y3UUtKNURwejE5YkJUTGluZWNSYUNtZ1hFblNXV0hxN0NLVFVIejRvMytvaGt6ZFVnPT0iLCJtYWMiOiI4YjNmMGZjYTQxOWQ3MDc2NTY1ZGZkNzgxNzc3ODFhYTI1NmQ4MDczMDIwNWE2ZWQ1NGUyOWNjZDRlNzEyMDdkIn0%3D" />
               </Biscuit>
             </list>
           </option>
-          <option name="httpMethod" value="POST" />
+          <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges" />
+          <option name="urlPath" value="v1/users/5/badges/14" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -1529,17 +1542,17 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431182386000" />
+                <option name="date" value="1431219462000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6IjVEbVQ1Tk1MQkU2V1FkaVhRQTRhM2c9PSIsInZhbHVlIjoiWGpSazlxckxNaXVIajM3S1wvc005b2lvUmpjYzU0S0dXdFBDNUxOaUdKWGlxSzVNVCtGejRwWUxjcEQwY253M1ZCSEVqSGlzUVFkUTlaZDV3dTJkSEp3PT0iLCJtYWMiOiJkNWVhMmNlY2Q1ODM2OGQ0NGZkMDgyOWZkNTRmNjdmZGE5NGUxYjNlZTk2NmM3MmRkZDRkZGFjYzJlNjI0MWIyIn0%3D" />
+                <option name="value" value="eyJpdiI6IlM2eHlUUElmOTlYUGhSYkRHU3BJTWc9PSIsInZhbHVlIjoiVklWdEhoOFlyWU1uXC8reWpFRWF5cTkzWTd4ZXFuUFpPcE1wQ0Y3UUtKNURwejE5YkJUTGluZWNSYUNtZ1hFblNXV0hxN0NLVFVIejRvMytvaGt6ZFVnPT0iLCJtYWMiOiI4YjNmMGZjYTQxOWQ3MDc2NTY1ZGZkNzgxNzc3ODFhYTI1NmQ4MDczMDIwNWE2ZWQ1NGUyOWNjZDRlNzEyMDdkIn0%3D" />
               </Biscuit>
             </list>
           </option>
-          <option name="httpMethod" value="POST" />
+          <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges" />
+          <option name="urlPath" value="v1/users/4/badges/12d" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -1560,17 +1573,358 @@
           <option name="biscuits">
             <list>
               <Biscuit>
-                <option name="date" value="1431182378000" />
+                <option name="date" value="1431219462000" />
                 <option name="domain" value="192.168.56.156" />
                 <option name="name" value="laravel_session" />
                 <option name="path" value="/" />
-                <option name="value" value="eyJpdiI6InBpSTl0aXJDRVQ2NUdxWEFGb2ozdkE9PSIsInZhbHVlIjoiOUV2K1dWbU1WXC9aMDgybUJRTDJXaDhXRzBMZjhaV2tpY3o4RkZjenJST1NGUzN3c2RMRjFSNFhmRjgxS2pKVkFOTGI5WWQ1S28ybnhIc2dQRlhcLzlYZz09IiwibWFjIjoiMGIyMDI4Y2EzMTkxNTM4ZjA4ZjdkOWFlOGQ1OTQzODIwNDUyM2M1NWQ4ZTAyMTVhYzk1NmM3NTBjNmRiMGI0YiJ9" />
+                <option name="value" value="eyJpdiI6IlM2eHlUUElmOTlYUGhSYkRHU3BJTWc9PSIsInZhbHVlIjoiVklWdEhoOFlyWU1uXC8reWpFRWF5cTkzWTd4ZXFuUFpPcE1wQ0Y3UUtKNURwejE5YkJUTGluZWNSYUNtZ1hFblNXV0hxN0NLVFVIejRvMytvaGt6ZFVnPT0iLCJtYWMiOiI4YjNmMGZjYTQxOWQ3MDc2NTY1ZGZkNzgxNzc3ODFhYTI1NmQ4MDczMDIwNWE2ZWQ1NGUyOWNjZDRlNzEyMDdkIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://192.168.56.156" />
+          <option name="urlPath" value="v1/users/4/badges/10" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1431219462000" />
+                <option name="domain" value="192.168.56.156" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlM2eHlUUElmOTlYUGhSYkRHU3BJTWc9PSIsInZhbHVlIjoiVklWdEhoOFlyWU1uXC8reWpFRWF5cTkzWTd4ZXFuUFpPcE1wQ0Y3UUtKNURwejE5YkJUTGluZWNSYUNtZ1hFblNXV0hxN0NLVFVIejRvMytvaGt6ZFVnPT0iLCJtYWMiOiI4YjNmMGZjYTQxOWQ3MDc2NTY1ZGZkNzgxNzc3ODFhYTI1NmQ4MDczMDIwNWE2ZWQ1NGUyOWNjZDRlNzEyMDdkIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://192.168.56.156" />
+          <option name="urlPath" value="v1/users/4/badges/9" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1431219451000" />
+                <option name="domain" value="192.168.56.156" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IjBRVytOVzlaTU5OT3lpOWtnazQ1UlE9PSIsInZhbHVlIjoiUjRqZk5UZUczNCs0TEw0dDRsdFdYQkRic0dIYk5TXC9GQk12ZWt5d2Q4NzBYaUdscTREdlYyMU56NHNkYktobnlxQ1NBTkpGMzJXTCtQQ0c2RTQ3K0JnPT0iLCJtYWMiOiI1YTNlNjQ3OGM5YzNkYTkwYWMxNDJkMjJiMjJiYmE3NzE5YjJhYTY0Y2ViMWNiOTkwNzk5NmNmZmI0OGNkZTYzIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://192.168.56.156" />
+          <option name="urlPath" value="v1/users/4/badges/9" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1431219430000" />
+                <option name="domain" value="192.168.56.156" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Imc3YkJOdWxrc1R4QWpIWW5yS3JQSFE9PSIsInZhbHVlIjoiXC9mZjBneEJpanpRT1JtQ1RySDhXTHhoUWJ1UmdlUCtYaDdqSjg3WWI4WjE4ZFZURDNxRTZ3XC8yNnVTeHI0b3Q1TmVKVXBJaExNRElMTGliUmdoVkN5QT09IiwibWFjIjoiNDFiOTYxOTU3YmZkNmJjZGJlYjBmYjk1ZTljODcyMzg2MzVhNzg1ZGNhNmYzOTg0OGVhYmRmMGE3ZmJjMWMzYiJ9" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://192.168.56.156" />
+          <option name="urlPath" value="v1/users/4/badges/8" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1431218827000" />
+                <option name="domain" value="192.168.56.156" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IklSVUwzUGZncFpjVXBOMFlXWExtMXc9PSIsInZhbHVlIjoia0tGOGdWU04xc0ZOYU5KOG15VTVaN205OTllQkdtWkpcL0U5WnJQY1lGa3Y4OTgzeTBzNHkyRXdtZHBEZlpoeXJuNmxKU3NBN0pjeUFXZmhjekxtMEd3PT0iLCJtYWMiOiI2YTkzNTM0M2ZmYzFjMTgyM2NkNDg0YzU1ZTQ5OGQzZmFkMjQ1NDQ0OGE1OWIzZjA1NjcxMmFjODk4ZDM2MTNmIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://192.168.56.156" />
+          <option name="urlPath" value="v1/users/4/badges/8" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1431218820000" />
+                <option name="domain" value="192.168.56.156" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkF6VVlkT0FmWEFCTjlOcnFQU0NXeHc9PSIsInZhbHVlIjoiZ0xsRVNPdERKdFM2MEN6Y3VPdHowR092c2NLK29rWHpXM1lSY3JYa3BWa1VcL1wvdG0xRHZSZ2ZPcDVmaWVCcVNvcjI3cGt6NVlTZnpuSTZnN2liQ2tiQT09IiwibWFjIjoiY2I5MmFmNDU5MDU1N2YxYzNlMmRkYjBjNTVmZDAzODNiY2JkM2Y5ZmU5NDY5NmU3OGE2YjE2NmJmN2I1MjBjYiJ9" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://192.168.56.156" />
+          <option name="urlPath" value="v1/users/4/badges/8" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1431218803000" />
+                <option name="domain" value="192.168.56.156" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlNxbFJBZlRYaDBCdUx4eGNVSHdPOEE9PSIsInZhbHVlIjoicG9YbHo5WHdoaHcyVjBcL1l6ZVVSbE5XQkR1TTJvclZzTG5mR3dZeWNnMU1lY3lST2tLSDRack00YXlkUWhWalJTUzloUFhva2R0bXZHVWNaM0lBRThBPT0iLCJtYWMiOiIyMGExOTgwODIzZTA1ZTU0NDgzYWQ1NDg4ZjhjNzVkNTA5YWMxZTk4ZWE0NjhiMjM3MjNhNzNhNGJmMzZhYTM0In0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://192.168.56.156" />
+          <option name="urlPath" value="v1/users/4/badges/8" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1431218485000" />
+                <option name="domain" value="192.168.56.156" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkRcL1p1TlZNd3BFZU96YmVoVDRKTzBnPT0iLCJ2YWx1ZSI6ImR4MlpLdmdCaEVEMER1VzdwZGRCWklrVUtHbndJS2VHTVl1NkdWOGNMbklURm1ld05SdGpFY0pzaThJNzZSWDBManJ6M3lPaDRrK3pBUGNuQStIeVFnPT0iLCJtYWMiOiI0YmRkYjkxYTQ1MGFmMDcwYTI4Mjg1MzE4NTY3MzNhNTQ3N2M2YTdlZDUzYTBmOTg3ZjY0Y2RjNWNjN2E0OGRkIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://192.168.56.156" />
+          <option name="urlPath" value="v1/users/4/badges/8" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1431218428000" />
+                <option name="domain" value="192.168.56.156" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Imh2WWtcL0llVnB5bWk2elZsXC9cL3BPZHc9PSIsInZhbHVlIjoidjNtNjR5aUJObDIxOE4wTEFLYmdETTBUUmlPa3NXOTRaejBwUE9ieHVrTXpzaW9PSTN6RVhpUnRvd29UUTRFQlppY0dYVTROSVFYTndSOW5XcFhGUGc9PSIsIm1hYyI6IjcxYWIzNmI0MzA4MmNkNzkxM2U0Y2Q5MGQyNDZkOTcyN2FhODlkZGJjYzBkNmQyOTFlNTAzMjE3MjY0NWU0MGQifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://192.168.56.156" />
+          <option name="urlPath" value="v1/users/4/badges/8" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1431208943000" />
+                <option name="domain" value="192.168.56.156" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Im5qV3RvM01rUG5pWmcxb1FTZ1N4cVE9PSIsInZhbHVlIjoiOE1KcUpYZFVYWE1DTko2RkVIQkRRTVwvczZOc3M5QzdPUFB5bmY4VDNyZVVySmNHQjVRVFZ1TGxKUjhmY0tjemRucFAwYXhHcXo1c1ZxV1VoOEJtWGN3PT0iLCJtYWMiOiJkZDAwZDkxN2UyMjM4NmU2OGM2ZmZlYzUzYjA0ODc1YTc5Y2JmZGY2MDI5ODkyNTc0MDA0ZjM2NmEyYTQzYzZiIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://192.168.56.156" />
+          <option name="urlPath" value="v1/users/4/badges/8" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1431208943000" />
+                <option name="domain" value="192.168.56.156" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Im5qV3RvM01rUG5pWmcxb1FTZ1N4cVE9PSIsInZhbHVlIjoiOE1KcUpYZFVYWE1DTko2RkVIQkRRTVwvczZOc3M5QzdPUFB5bmY4VDNyZVVySmNHQjVRVFZ1TGxKUjhmY0tjemRucFAwYXhHcXo1c1ZxV1VoOEJtWGN3PT0iLCJtYWMiOiJkZDAwZDkxN2UyMjM4NmU2OGM2ZmZlYzUzYjA0ODc1YTc5Y2JmZGY2MDI5ODkyNTc0MDA0ZjM2NmEyYTQzYzZiIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://192.168.56.156" />
+          <option name="urlPath" value="v1/users4/badges/8" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1431208943000" />
+                <option name="domain" value="192.168.56.156" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Im5qV3RvM01rUG5pWmcxb1FTZ1N4cVE9PSIsInZhbHVlIjoiOE1KcUpYZFVYWE1DTko2RkVIQkRRTVwvczZOc3M5QzdPUFB5bmY4VDNyZVVySmNHQjVRVFZ1TGxKUjhmY0tjemRucFAwYXhHcXo1c1ZxV1VoOEJtWGN3PT0iLCJtYWMiOiJkZDAwZDkxN2UyMjM4NmU2OGM2ZmZlYzUzYjA0ODc1YTc5Y2JmZGY2MDI5ODkyNTc0MDA0ZjM2NmEyYTQzYzZiIn0%3D" />
               </Biscuit>
             </list>
           </option>
           <option name="httpMethod" value="GET" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="badges" />
+          <option name="urlPath" value="groups/1/badges" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -1588,9 +1942,20 @@
           <option name="filesToSend" value="" />
         </RestClientRequest>
         <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1431208943000" />
+                <option name="domain" value="192.168.56.156" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Im5qV3RvM01rUG5pWmcxb1FTZ1N4cVE9PSIsInZhbHVlIjoiOE1KcUpYZFVYWE1DTko2RkVIQkRRTVwvczZOc3M5QzdPUFB5bmY4VDNyZVVySmNHQjVRVFZ1TGxKUjhmY0tjemRucFAwYXhHcXo1c1ZxV1VoOEJtWGN3PT0iLCJtYWMiOiJkZDAwZDkxN2UyMjM4NmU2OGM2ZmZlYzUzYjA0ODc1YTc5Y2JmZGY2MDI5ODkyNTc0MDA0ZjM2NmEyYTQzYzZiIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
           <option name="httpMethod" value="GET" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="" />
+          <option name="urlPath" value="groups/1/badges/1" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -1608,9 +1973,113 @@
           <option name="filesToSend" value="" />
         </RestClientRequest>
         <RestClientRequest>
-          <option name="httpMethod" value="POST" />
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1431208943000" />
+                <option name="domain" value="192.168.56.156" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Im5qV3RvM01rUG5pWmcxb1FTZ1N4cVE9PSIsInZhbHVlIjoiOE1KcUpYZFVYWE1DTko2RkVIQkRRTVwvczZOc3M5QzdPUFB5bmY4VDNyZVVySmNHQjVRVFZ1TGxKUjhmY0tjemRucFAwYXhHcXo1c1ZxV1VoOEJtWGN3PT0iLCJtYWMiOiJkZDAwZDkxN2UyMjM4NmU2OGM2ZmZlYzUzYjA0ODc1YTc5Y2JmZGY2MDI5ODkyNTc0MDA0ZjM2NmEyYTQzYzZiIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://192.168.56.156" />
-          <option name="urlPath" value="" />
+          <option name="urlPath" value="groups/1/badges/1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1431208943000" />
+                <option name="domain" value="192.168.56.156" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Im5qV3RvM01rUG5pWmcxb1FTZ1N4cVE9PSIsInZhbHVlIjoiOE1KcUpYZFVYWE1DTko2RkVIQkRRTVwvczZOc3M5QzdPUFB5bmY4VDNyZVVySmNHQjVRVFZ1TGxKUjhmY0tjemRucFAwYXhHcXo1c1ZxV1VoOEJtWGN3PT0iLCJtYWMiOiJkZDAwZDkxN2UyMjM4NmU2OGM2ZmZlYzUzYjA0ODc1YTc5Y2JmZGY2MDI5ODkyNTc0MDA0ZjM2NmEyYTQzYzZiIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://192.168.56.156" />
+          <option name="urlPath" value="users/1/badges/1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1431208943000" />
+                <option name="domain" value="192.168.56.156" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Im5qV3RvM01rUG5pWmcxb1FTZ1N4cVE9PSIsInZhbHVlIjoiOE1KcUpYZFVYWE1DTko2RkVIQkRRTVwvczZOc3M5QzdPUFB5bmY4VDNyZVVySmNHQjVRVFZ1TGxKUjhmY0tjemRucFAwYXhHcXo1c1ZxV1VoOEJtWGN3PT0iLCJtYWMiOiJkZDAwZDkxN2UyMjM4NmU2OGM2ZmZlYzUzYjA0ODc1YTc5Y2JmZGY2MDI5ODkyNTc0MDA0ZjM2NmEyYTQzYzZiIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://192.168.56.156" />
+          <option name="urlPath" value="users/1/badges/1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1431208943000" />
+                <option name="domain" value="192.168.56.156" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Im5qV3RvM01rUG5pWmcxb1FTZ1N4cVE9PSIsInZhbHVlIjoiOE1KcUpYZFVYWE1DTko2RkVIQkRRTVwvczZOc3M5QzdPUFB5bmY4VDNyZVVySmNHQjVRVFZ1TGxKUjhmY0tjemRucFAwYXhHcXo1c1ZxV1VoOEJtWGN3PT0iLCJtYWMiOiJkZDAwZDkxN2UyMjM4NmU2OGM2ZmZlYzUzYjA0ODc1YTc5Y2JmZGY2MDI5ODkyNTc0MDA0ZjM2NmEyYTQzYzZiIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://192.168.56.156" />
+          <option name="urlPath" value="users/1/badges/3" />
           <option name="headers">
             <list>
               <KeyValuePair>
@@ -1679,13 +2148,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964134" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3607595" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45675105" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44462025" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39398733" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29833335" sideWeight="0.4976526" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07416666" sideWeight="0.4976526" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15416667" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964134" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1698,6 +2167,30 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45675105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4171941" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22416666" sideWeight="0.4976526" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15416667" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22" sideWeight="0.5023474" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1770,14 +2263,6 @@
             <marker date="1431172610802" expanded="true" signature="-1:-1" placeholder="..." />
             <marker date="1431172610802" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49579188">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1897,104 +2382,6 @@
             <marker date="1431172610746" expanded="true" signature="-1:-1" placeholder="..." />
             <marker date="1431172610746" expanded="true" signature="-1:-1" placeholder=" Create a new password controller instance. ..." />
             <marker date="1431172610746" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/GroupsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8263889">
-          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
-          <folding>
-            <marker date="1431178132395" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1431178132395" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431178132395" expanded="true" signature="-1:-1" placeholder=" Display a listing of the resource. ..." />
-            <marker date="1431178132395" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431178132395" expanded="true" signature="-1:-1" placeholder=" Show the form for creating a new resource. ..." />
-            <marker date="1431178132395" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431178132395" expanded="true" signature="-1:-1" placeholder=" Store a newly created resource in storage. ..." />
-            <marker date="1431178132395" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431178132395" expanded="true" signature="-1:-1" placeholder=" Display the specified resource. ..." />
-            <marker date="1431178132395" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431178132395" expanded="true" signature="-1:-1" placeholder=" Show the form for editing the specified resource. ..." />
-            <marker date="1431178132395" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431178132395" expanded="true" signature="-1:-1" placeholder=" Update the specified resource in storage. ..." />
-            <marker date="1431178132395" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431178132395" expanded="true" signature="-1:-1" placeholder=" Remove the specified resource from storage. ..." />
-            <marker date="1431178132395" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BadgesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38368055">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <marker date="1431185059006" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder=" Display a listing of the resource. ..." />
-            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder=" Show the form for creating a new resource. ..." />
-            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder=" Store a newly created resource in storage. ..." />
-            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder=" Display the specified resource. ..." />
-            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder=" Show the form for editing the specified resource. ..." />
-            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder=" Update the specified resource in storage. ..." />
-            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder=" Remove the specified resource from storage. ..." />
-            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2857143">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding>
-            <marker date="1431186931388" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1431186931388" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431186931388" expanded="true" signature="-1:-1" placeholder=" This namespace is applied to the controller routes in your routes file. ..." />
-            <marker date="1431186931388" expanded="true" signature="-1:-1" placeholder=" Define your route model bindings, pattern filters, etc. ..." />
-            <marker date="1431186931388" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431186931388" expanded="true" signature="-1:-1" placeholder=" Define the routes for the application. ..." />
-            <marker date="1431186931388" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431186931388" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431186931388" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1431172610698" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1431172610698" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431172610698" expanded="true" signature="-1:-1" placeholder=" The event handler mappings for the application. ..." />
-            <marker date="1431172610698" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431172610698" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431172610698" expanded="true" signature="-1:-1" placeholder=" Register any other events for your application. ..." />
-            <marker date="1431172610698" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/ConfigServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1431172610702" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431172610702" expanded="true" signature="-1:-1" placeholder=" Overwrite any vendor / package configuration. ..." />
-            <marker date="1431172610702" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431172610702" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431172610702" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -2148,23 +2535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56041515">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <marker date="1431174663374" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1431174663374" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431174663374" expanded="true" signature="-1:-1" placeholder=" Run the migrations. ..." />
-            <marker date="1431174663374" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431174663374" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431174663374" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431174663374" expanded="true" signature="-1:-1" placeholder=" Reverse the migrations. ..." />
-            <marker date="1431174663374" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f1ceea9d-8a7a-4c4e-a525-1986753439b6/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2190,23 +2560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_05_09_153815_BadgesUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6448141">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <marker date="1431189949093" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1431189949093" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431189949093" expanded="true" signature="-1:-1" placeholder=" Run the migrations. ..." />
-            <marker date="1431189949093" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431189949093" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431189949093" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431189949093" expanded="true" signature="-1:-1" placeholder=" Reverse the migrations. ..." />
-            <marker date="1431189949093" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2015_05_09_153755_GroupsUsers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9589041">
@@ -2224,62 +2577,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BadgesGroupsController.php">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75021166">
-          <caret line="51" column="5" selection-start-line="48" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.5636008">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BadgesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6815013">
+          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
           <folding>
-            <marker date="1431189192896" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1431189192896" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431189192896" expanded="true" signature="-1:-1" placeholder=" Display a listing of the resource. ..." />
-            <marker date="1431189192896" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431189192896" expanded="true" signature="-1:-1" placeholder=" Show the form for creating a new resource. ..." />
-            <marker date="1431189192896" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431189192896" expanded="true" signature="-1:-1" placeholder=" Store a newly created resource in storage. ..." />
-            <marker date="1431189192896" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431189192896" expanded="true" signature="-1:-1" placeholder=" Display the specified resource. ..." />
-            <marker date="1431189192896" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431189192896" expanded="true" signature="-1:-1" placeholder=" Show the form for editing the specified resource. ..." />
-            <marker date="1431189192896" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431189192896" expanded="true" signature="-1:-1" placeholder=" Update the specified resource in storage. ..." />
-            <marker date="1431189192896" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431189192896" expanded="true" signature="-1:-1" placeholder=" Remove the specified resource from storage. ..." />
-            <marker date="1431189192896" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431185059006" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder=" Display a listing of the resource. ..." />
+            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder=" Show the form for creating a new resource. ..." />
+            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder=" Store a newly created resource in storage. ..." />
+            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder=" Display the specified resource. ..." />
+            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder=" Show the form for editing the specified resource. ..." />
+            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder=" Update the specified resource in storage. ..." />
+            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder=" Remove the specified resource from storage. ..." />
+            <marker date="1431185059006" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BadgesUsersController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BadgesGroupsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81017613">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.7084079">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
           <folding>
-            <marker date="1431201945052" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1431201945052" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431201945052" expanded="true" signature="-1:-1" placeholder=" Display a listing of the resource. ..." />
-            <marker date="1431201945052" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431201945052" expanded="true" signature="-1:-1" placeholder=" Show the form for creating a new resource. ..." />
-            <marker date="1431201945052" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431201945052" expanded="true" signature="-1:-1" placeholder=" Store a newly created resource in storage. ..." />
-            <marker date="1431201945052" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431201945052" expanded="true" signature="-1:-1" placeholder=" Display the specified resource. ..." />
-            <marker date="1431201945052" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431201945052" expanded="true" signature="-1:-1" placeholder=" Show the form for editing the specified resource. ..." />
-            <marker date="1431201945052" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431201945052" expanded="true" signature="-1:-1" placeholder=" Update the specified resource in storage. ..." />
-            <marker date="1431201945052" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1431201945052" expanded="true" signature="-1:-1" placeholder=" Remove the specified resource from storage. ..." />
-            <marker date="1431201945052" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431210417501" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1431210417501" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431210417501" expanded="true" signature="-1:-1" placeholder=" Display a listing of the resource. ..." />
+            <marker date="1431210417501" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431210417501" expanded="true" signature="-1:-1" placeholder=" Show the form for creating a new resource. ..." />
+            <marker date="1431210417501" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431210417501" expanded="true" signature="-1:-1" placeholder=" Store a newly created resource in storage. ..." />
+            <marker date="1431210417501" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431210417501" expanded="true" signature="-1:-1" placeholder=" Display the specified resource. ..." />
+            <marker date="1431210417501" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431210417501" expanded="true" signature="-1:-1" placeholder=" Show the form for editing the specified resource. ..." />
+            <marker date="1431210417501" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431210417501" expanded="true" signature="-1:-1" placeholder=" Update the specified resource in storage. ..." />
+            <marker date="1431210417501" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431210417501" expanded="true" signature="-1:-1" placeholder=" Remove the specified resource from storage. ..." />
+            <marker date="1431210417501" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42466488">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.41681573">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding>
-            <marker date="1431201441813" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431201441813" expanded="false" signature="-1:-1" placeholder="..." />
             <marker date="1431201441813" expanded="true" signature="-1:-1" placeholder="..." />
             <marker date="1431201441813" expanded="true" signature="-1:-1" placeholder=" Display a listing of the resource. ..." />
             <marker date="1431201441813" expanded="true" signature="-1:-1" placeholder="{...}" />
@@ -2299,50 +2663,269 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Events/Event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2254025">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1431172610722" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/GroupsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5805009">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+          <folding>
+            <marker date="1431210584566" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1431210584566" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431210584566" expanded="true" signature="-1:-1" placeholder=" Display a listing of the resource. ..." />
+            <marker date="1431210584566" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431210584566" expanded="true" signature="-1:-1" placeholder=" Show the form for creating a new resource. ..." />
+            <marker date="1431210584566" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431210584566" expanded="true" signature="-1:-1" placeholder=" Store a newly created resource in storage. ..." />
+            <marker date="1431210584566" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431210584566" expanded="true" signature="-1:-1" placeholder=" Display the specified resource. ..." />
+            <marker date="1431210584566" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431210584566" expanded="true" signature="-1:-1" placeholder=" Show the form for editing the specified resource. ..." />
+            <marker date="1431210584566" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431210584566" expanded="true" signature="-1:-1" placeholder=" Update the specified resource in storage. ..." />
+            <marker date="1431210584566" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431210584566" expanded="true" signature="-1:-1" placeholder=" Remove the specified resource from storage. ..." />
+            <marker date="1431210584566" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4924925">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+          <folding>
+            <marker date="1431210617286" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1431210617286" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431210617286" expanded="true" signature="-1:-1" placeholder=" This namespace is applied to the controller routes in your routes file. ..." />
+            <marker date="1431210617286" expanded="true" signature="-1:-1" placeholder=" Define your route model bindings, pattern filters, etc. ..." />
+            <marker date="1431210617286" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431210617286" expanded="true" signature="-1:-1" placeholder=" Define the routes for the application. ..." />
+            <marker date="1431210617286" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431210617286" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431210617286" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8538539">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1431212472060" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1431212472060" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431212472060" expanded="true" signature="-1:-1" placeholder=" The event handler mappings for the application. ..." />
+            <marker date="1431212472060" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431212472060" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431212472060" expanded="true" signature="-1:-1" placeholder=" Register any other events for your application. ..." />
+            <marker date="1431212472060" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/emails/password.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3873874">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding>
+            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6297376">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/ConfigServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1431172610702" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431172610702" expanded="true" signature="-1:-1" placeholder=" Overwrite any vendor / package configuration. ..." />
+            <marker date="1431172610702" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431172610702" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431172610702" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BadgesUsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.4504504">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <marker date="1431214521844" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1431214521844" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431214521844" expanded="true" signature="-1:-1" placeholder=" Display a listing of the resource. ..." />
+            <marker date="1431214521844" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431214521844" expanded="true" signature="-1:-1" placeholder=" Show the form for creating a new resource. ..." />
+            <marker date="1431214521844" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431214521844" expanded="true" signature="-1:-1" placeholder=" Store a newly created resource in storage. ..." />
+            <marker date="1431214521844" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431214521844" expanded="true" signature="-1:-1" placeholder=" Display the specified resource. ..." />
+            <marker date="1431214521844" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431214521844" expanded="true" signature="-1:-1" placeholder=" Show the form for editing the specified resource. ..." />
+            <marker date="1431214521844" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431214521844" expanded="true" signature="-1:-1" placeholder=" Update the specified resource in storage. ..." />
+            <marker date="1431214521844" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431214521844" expanded="true" signature="-1:-1" placeholder=" Remove the specified resource from storage. ..." />
+            <marker date="1431214521844" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Events/BadgeAssignedEvent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3963964">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <marker date="1431215267136" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1431215267136" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431215267136" expanded="true" signature="-1:-1" placeholder=" Create a new event instance. ..." />
+            <marker date="1431215267136" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3973974">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <marker date="1431174663374" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1431174663374" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431174663374" expanded="true" signature="-1:-1" placeholder=" Run the migrations. ..." />
+            <marker date="1431174663374" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431174663374" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431174663374" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431174663374" expanded="true" signature="-1:-1" placeholder=" Reverse the migrations. ..." />
+            <marker date="1431174663374" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_05_09_153815_BadgesUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6646647">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1431189949093" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1431189949093" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431189949093" expanded="true" signature="-1:-1" placeholder=" Run the migrations. ..." />
+            <marker date="1431189949093" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431189949093" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431189949093" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431189949093" expanded="true" signature="-1:-1" placeholder=" Reverse the migrations. ..." />
+            <marker date="1431189949093" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4761394">
-          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.8938939">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
           <folding>
-            <marker date="1431205402941" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1431205402941" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431205402941" expanded="true" signature="-1:-1" placeholder=" Run the database seeds. ..." />
-            <marker date="1431205402941" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431215526504" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1431215526504" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431215526504" expanded="true" signature="-1:-1" placeholder=" Run the database seeds. ..." />
+            <marker date="1431215526504" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Commands/AssignBadgeCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7927928">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding>
+            <marker date="1431215606567" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1431215606567" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431215606567" expanded="true" signature="-1:-1" placeholder=" Create a new command instance. ..." />
+            <marker date="1431215606567" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431215606567" expanded="true" signature="-1:-1" placeholder=" Execute the command. ..." />
+            <marker date="1431215606567" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/emails/badge-earned.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.072072074">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NotifyUserForBadgeAssignedEvent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6156156">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <marker date="1431215699094" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1431215699094" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431215699094" expanded="true" signature="-1:-1" placeholder=" Create the event handler. ..." />
+            <marker date="1431215699094" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431215699094" expanded="true" signature="-1:-1" placeholder=" Handle the event. ..." />
+            <marker date="1431215699094" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1431215699094" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431215699094" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.739726">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.5474061">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding>
-            <marker date="1431205413768" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431205413768" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431205413768" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431205413768" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431205413768" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431205413768" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431205413768" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431215770277" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431215770277" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431215770277" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431215770277" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431215770277" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431215770277" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431215770277" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.102661595">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8238748">
-          <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.094076656">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
           <folding />
         </state>
       </provider>

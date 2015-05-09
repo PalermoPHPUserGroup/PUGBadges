@@ -46,7 +46,7 @@ class GroupsController extends Controller {
 	 */
 	public function show($id)
 	{
-		//
+		return 'hey';
 	}
 
 	/**

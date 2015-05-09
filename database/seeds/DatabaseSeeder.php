@@ -34,12 +34,14 @@ class DatabaseSeeder extends Seeder {
 		DB::table('users')->delete();
 		$leader = new User;
 		$leader->email = 'leader@usergroup.org';
+		$leader->name = 'John Smith';
 		$leader->is_admin = 1;
 		$leader->password = Hash::make('secret');
 		$leader->save();
 
 		$member = new User;
 		$member->email = 'member@usergroup.org';
+		$leader->name = 'Robert Jones';
 		$member->is_admin = 0;
 		$member->password = Hash::make('secret');
 		$member->save();
