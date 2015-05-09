@@ -38,3 +38,5 @@ Basic api calls be be:
 /v1/users/1 to return a user and badges
 /v1/badges to return all badges
 /v1/badges/1 to return a badges
+
+Several badges are located in the public/badges directory.
