@@ -34,11 +34,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.094076656">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.51699466">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -79,7 +82,6 @@
         <option value="$PROJECT_DIR$/database/migrations/2015_05_09_153804_BadgesGroups.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_05_09_153755_GroupsUsers.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/BadgesGroupsController.php" />
         <option value="$PROJECT_DIR$/app/Events/Event.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/GroupsController.php" />
@@ -97,6 +99,7 @@
         <option value="$PROJECT_DIR$/app/Handlers/Events/NotifyUserForBadgeAssignedEvent.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -503,7 +506,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.vagrant" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="SearchEverywhereHistoryKey" value=".git&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/.gitignore&#10;routes.php&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/routes.php&#10;badge&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/resources/views/emails/badge-earned.blade.php&#10;create_u&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/database/migrations/2014_10_12_000000_create_users_table.php&#10;.env&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/.env&#10;Routes.&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Providers/RouteServiceProvider.php&#10;groups.&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/Controllers/GroupsController.php&#10;routes&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/routes.php&#10;seed&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/database/seeds/DatabaseSeeder.php&#10;users&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/Controllers/UsersController.php&#10;data&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;UsersC&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/Controllers/UsersController.php&#10;route&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/routes.php&#10;Badges&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/Controllers/BadgesController.php&#10;composer.json&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/composer.json" />
+    <property name="SearchEverywhereHistoryKey" value="mail.php&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/config/mail.php&#10;Re&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/README.md&#10;.git&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/.gitignore&#10;routes.php&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/routes.php&#10;badge&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/resources/views/emails/badge-earned.blade.php&#10;create_u&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/database/migrations/2014_10_12_000000_create_users_table.php&#10;.env&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/.env&#10;Routes.&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Providers/RouteServiceProvider.php&#10;groups.&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/Controllers/GroupsController.php&#10;routes&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/routes.php&#10;seed&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/database/seeds/DatabaseSeeder.php&#10;users&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/Controllers/UsersController.php&#10;data&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;UsersC&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/Controllers/UsersController.php&#10;route&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/routes.php&#10;Badges&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/app/Http/Controllers/BadgesController.php&#10;composer.json&#9;FILE&#9;file:///home/chris/myboxes/dev/html/badges/composer.json" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
@@ -2154,7 +2157,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39398733" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07416666" sideWeight="0.4976526" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32833335" sideWeight="0.4976526" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15416667" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964134" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2577,17 +2580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5636008">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BadgesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6815013">
@@ -2737,25 +2729,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3873874">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding>
-            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2924,8 +2897,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.094076656">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.12543555">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43023255">
+          <caret line="84" column="6" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="6" />
+          <folding>
+            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431214138973" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51699466">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
