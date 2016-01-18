@@ -1,6 +1,6 @@
 # User Group Badges
 
-This is just a small Saturday afternoon project that tries to gamify participation in user group. The user will receive
+This is just a small Sunday afternoon project that tries to gamify participation in user group. The user will receive
 a notification (for now an email) whenever that user receives a badge.
 
 It is written in Laravel 5.0.
